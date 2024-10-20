@@ -7,7 +7,7 @@ Using specially engineered AI prompts and web scraping articles and sources, we 
 Launch the ____.py file and navigate the directories for insights on croma and its competitors
 
 ### Secrets
-Api-key is located in env??
+Api-key- AIzaSyD7SqpaUtvq05aV58R1lyA5-QsARwWdkHk
 
 
 
