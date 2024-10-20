@@ -9,5 +9,6 @@ Launch the ____.py file and navigate the directories for insights on croma and i
 ### Secrets
 Api-key- AIzaSyD7SqpaUtvq05aV58R1lyA5-QsARwWdkHk
 
-
+### Output
+Output is stored in the index.html file
 
