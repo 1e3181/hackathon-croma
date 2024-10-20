@@ -1,1 +1,1 @@
-${{ env.MY_VARIABLE }}
+print(${{ env.MY_VARIABLE }})
