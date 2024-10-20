@@ -237,3 +237,4 @@ for i in range(2*1):
 with open("index.html", "a") as f:
     f.write(markdown.markdown(response.text[response.text.index('*'):], extensions=['markdown.extensions.tables']))
 print("done")
+__import__('webbrowser').open(f"file:\\{os.getcwd()}\index.html")
