@@ -1,0 +1,89 @@
+/* Importing a Google Font (e.g., Roboto) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif; /* Universal font for all elements */
+    background-color: #121212; /* Dark background */
+    color: #E0E0E0; /* Light text color for readability */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: inherit; /* Revert header color to inherit default text color */
+}
+
+a {
+    color: #BB86FC; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+button {
+    background-color: #BB86FC; /* Button background color */
+    color: #FFFFFF; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3700B3; /* Darker shade on hover */
+}
+
+input, select, textarea {
+    background-color: #1E1E1E; /* Input background */
+    color: #E0E0E0; /* Input text color */
+    border: 1px solid #333; /* Border for inputs */
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #BB86FC; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+}
+
+.card {
+    background-color: #1E1E1E; /* Card background */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #333; /* Table border */
+}
+
+.table th {
+    background-color: #1E1E1E; /* Header background */
+    color: #BB86FC; /* Header text color */
+    font-weight: bold; /* Bold header text */
+}
+
+.table tr:nth-child(even) {
+    background-color: #1A1A1A; /* Alternate row color */
+}
+
+.table tr:hover {
+    background-color: #333; /* Highlight row on hover */
+}
+
+/* Strong tag for bold text */
+strong {
+    color: inherit; /* Revert to original color */
+    font-weight: bold; /* Ensures it remains bold */
+}
